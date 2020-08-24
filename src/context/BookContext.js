@@ -6,7 +6,7 @@ export const BookContext = createContext();
 const BookContextProvider = (props) => {
   const [books, setBook] = useState([
     {title: 'Name of the Wind', author: 'Patric rothfuss', id: 1},
-    {title: 'The Final Empire', author: 'Brandon Sanderson', id: 1},
+    {title: 'The Final Empire', author: 'Brandon Sanderson', id: 2},
   ])
 
   const addBook = (title, author) => {
